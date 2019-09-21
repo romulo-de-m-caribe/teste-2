@@ -4,7 +4,7 @@
 	
 </head>
 <body>
-<h2>Melhorando o GETHUB</h2>
+<h2>Melhorando o GETHUB - Teste 2</h2>
 	<form method="post" action="" id="ajax_form">
 	 
 		
