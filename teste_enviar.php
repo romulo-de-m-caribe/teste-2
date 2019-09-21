@@ -4,6 +4,7 @@
 	
 </head>
 <body>
+<h2>Melhorando o GETHUB - Teste 2</h2>
 	<form method="post" action="" id="ajax_form">
 	 
 		
@@ -35,13 +36,13 @@
 				success: function( data )
 				{
 				 
-alert(data);
+//alert(data);
 
 
     var myString = data;
     var myArray = myString.split('-');
     for(var i=0;i<myArray.length;i++){
-        $('#teste').append("<div>"+myArray[i]+"</div>");
+        $('#teste').append("<div>"+myArray[i]+" Melhorando</div>");
     }
  
 				}
