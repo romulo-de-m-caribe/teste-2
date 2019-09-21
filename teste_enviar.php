@@ -36,13 +36,13 @@
 				success: function( data )
 				{
 				 
-alert(data);
+//alert(data);
 
 
     var myString = data;
     var myArray = myString.split('-');
     for(var i=0;i<myArray.length;i++){
-        $('#teste').append("<div>"+myArray[i]+"</div>");
+        $('#teste').append("<div>"+myArray[i]+" Melhorando</div>");
     }
  
 				}
